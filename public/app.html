@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sender App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-image">
+        <div class="form_container">
+            <form action="/" enctype="multipart/form-data" class="contact_container" method="post">
+                <input type="text" id="name" name="name" placeholder="FULL NAME" autocomplete="off"><br>
+                <input type="text" id="email" name="email" placeholder="EMAIL" autocomplete="off"><br>
+                <input type="text" id="subject" name="subject" placeholder="SUBJECT" autocomplete="off"><br>
+                <textarea id="message" name="message" cols="30" rows="10" placeholder="MESSAGE" autocomplete="off"></textarea><br>
+                <input type="file" id="attachment" name="attachment">
+                <input type="submit" class="submit" id="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+    <!-- <script src="./js/index.js"></script> -->
+</body>
+</html>
